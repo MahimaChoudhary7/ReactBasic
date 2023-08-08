@@ -1,0 +1,36 @@
+body {
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+}
+.conatiner {
+    width: 690px;
+    height: 220px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+button {
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: black;
+    width: 200px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+button:nth-child(1) {
+    cursor: url("https://media.geeksforgeeks.org/gfg-gg-logo.svg"),pointer;
+}
+button:nth-child(2) {
+    cursor: url("https://cdn.icon-icons.com/icons2/881/PNG/96/Cheese_icon-icons.com_68771.png"),pointer;
+}
+button:nth-child(3) {
+    cursor: url("http://icons.iconseeker.com/png/32/space/rocket.png"),pointer;
+}
