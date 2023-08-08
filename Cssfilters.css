@@ -1,0 +1,18 @@
+.image img {
+    max-width: 300px;
+}
+.original {
+
+}
+.brightness {
+    filter: brightness(150%);
+}
+.huerotate {
+    filter: hue-rotate(200deg);
+}
+.grayscale {
+    filter: grayscale(100%);
+}
+.blend {
+    filter: invert(1) hue-rotate(2500deg);
+}
